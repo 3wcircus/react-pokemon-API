@@ -54,6 +54,9 @@ src/
 public/
   img/                         # Local Pokémon sprite images (1.png–10089.png)
 ```
+<img width="1196" height="1919" alt="image" src="https://github.com/user-attachments/assets/09f205c3-5b7d-421d-b1a6-9437922c583b" />
+<img width="1196" height="1005" alt="image" src="https://github.com/user-attachments/assets/2fe7642b-d835-4032-a880-a31c98707ae7" />
+
 
 ## Notes
 
