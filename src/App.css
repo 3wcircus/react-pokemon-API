@@ -1,0 +1,61 @@
+/* Pokédex list grid */
+.grid-container {
+  display: grid;
+}
+
+.grid-container--fill {
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.grid-container--fit {
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.grid-element {
+  background-color: darkslategrey;
+  padding: 20px;
+  color: #fff;
+  border: 1px solid #fff;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.grid-element:hover {
+  background-color: #c0392b;
+  opacity: 0.85;
+}
+
+.grid-element img {
+  width: 100%;
+  max-width: 120px;
+  image-rendering: pixelated;
+}
+
+.navbar-brand {
+  margin-right: auto;
+  text-align: left;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Pokemon type badge colors */
+.type-normal   { background-color: #A8A878; color: #fff; }
+.type-fire     { background-color: #F08030; color: #fff; }
+.type-water    { background-color: #6890F0; color: #fff; }
+.type-electric { background-color: #F8D030; color: #000; }
+.type-grass    { background-color: #78C850; color: #fff; }
+.type-ice      { background-color: #98D8D8; color: #000; }
+.type-fighting { background-color: #C03028; color: #fff; }
+.type-poison   { background-color: #A040A0; color: #fff; }
+.type-ground   { background-color: #E0C068; color: #000; }
+.type-flying   { background-color: #A890F0; color: #fff; }
+.type-psychic  { background-color: #F85888; color: #fff; }
+.type-bug      { background-color: #A8B820; color: #fff; }
+.type-rock     { background-color: #B8A038; color: #fff; }
+.type-ghost    { background-color: #705898; color: #fff; }
+.type-dragon   { background-color: #7038F8; color: #fff; }
+.type-dark     { background-color: #705848; color: #fff; }
+.type-steel    { background-color: #B8B8D0; color: #000; }
+.type-fairy    { background-color: #EE99AC; color: #fff; }
